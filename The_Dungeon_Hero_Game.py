@@ -239,7 +239,7 @@ and finally open the gate for you and {rescuee_name} to escape.
     print("\nThere's no time to waste. Hurry up!!\n")
     input('<Press Enter to Continue>\n')
     
-    box_number = random.randint(1,3)    # This is for random number guessing.
+    box_number = random.randint(0,3)    # This is for random number guessing.
     guesses = 2     # This is giving the player 2 chances to guess.
     
     while guesses > 0:
